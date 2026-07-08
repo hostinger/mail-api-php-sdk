@@ -1,6 +1,6 @@
 {
     "name": "hostinger/email-api-php-sdk",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Hostinger Email API PHP SDK",
     "keywords": [
         "hostinger",
