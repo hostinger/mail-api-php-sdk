@@ -1,4 +1,4 @@
-# Hostinger Email API PHP SDK
+# Hostinger Mail API PHP SDK
 
 ## About
 This is a PHP SDK for the Hostinger API. 
@@ -14,7 +14,7 @@ PHP 8.1 and later.
 To install the package via [Composer](https://getcomposer.org/), run the following command:
 
 ```bash
-composer require hostinger/email-api-php-sdk
+composer require hostinger/mail-api-php-sdk
 ```
 
 ### Manual Installation
