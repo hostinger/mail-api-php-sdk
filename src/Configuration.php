@@ -20,7 +20,7 @@ class Configuration
 
     protected string $host = 'https://api.mail.hostinger.com';
 
-    protected string $userAgent = 'hostinger-mail-php-sdk/1.2.1';
+    protected string $userAgent = 'hostinger-mail-php-sdk/1.2.2';
 
     protected bool $debug = false;
 
