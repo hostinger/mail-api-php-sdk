@@ -122,6 +122,7 @@ Class | Method | HTTP request | Description
 - [V1QuotaQuotaResource](docs/Model/V1QuotaQuotaResource.md)
 - [V1QuotaResource](docs/Model/V1QuotaResource.md)
 - [V1SendAttachment](docs/Model/V1SendAttachment.md)
+- [V1SendMessageRef](docs/Model/V1SendMessageRef.md)
 - [V1SendRequest](docs/Model/V1SendRequest.md)
 - [V1WebhooksCollection](docs/Model/V1WebhooksCollection.md)
 - [V1WebhooksCreateRequest](docs/Model/V1WebhooksCreateRequest.md)

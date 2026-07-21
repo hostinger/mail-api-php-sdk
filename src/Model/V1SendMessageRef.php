@@ -17,50 +17,50 @@
 
 namespace Hostinger\Model;
 
-class V1MeResourceData 
+class V1SendMessageRef 
 {
 
     /**
-     * @var string $orderResourceId
+     * @var int $uid
      */
-    private string $orderResourceId;
+    private int $uid;
 
     /**
-     * @var \Hostinger\Model\V1MeMailbox[] $mailboxes
+     * @var string $folder
      */
-    private array $mailboxes;
+    private string $folder;
 
     /**
-    * @return string
+    * @return int
     */
-    public function getOrderResourceId(): string
+    public function getUid(): int
     {
-        return $this->orderResourceId;
+        return $this->uid;
     }
 
     /**
-     * @param string $orderResourceId Identifier of the order this API token is scoped to.
+     * @param int $uid UID of the source message.
      */
-    public function setOrderResourceId(string $orderResourceId): self
+    public function setUid(int $uid): self
     {
-        $this->orderResourceId = $orderResourceId;
+        $this->uid = $uid;
 
         return $this;
     }
     /**
-    * @return \Hostinger\Model\V1MeMailbox[]
+    * @return string
     */
-    public function getMailboxes(): array
+    public function getFolder(): string
     {
-        return $this->mailboxes;
+        return $this->folder;
     }
 
     /**
-     * @param \Hostinger\Model\V1MeMailbox[] $mailboxes Mailboxes that the authenticated API token can manage.
+     * @param string $folder Folder containing the source message.
      */
-    public function setMailboxes(array $mailboxes): self
+    public function setFolder(string $folder): self
     {
-        $this->mailboxes = $mailboxes;
+        $this->folder = $folder;
 
         return $this;
     }

@@ -14,7 +14,7 @@ namespace Hostinger\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
-class V1WebhooksTestResultDataTest extends TestCase
+class V1SendMessageRefTest extends TestCase
 {
 
     public static function setUpBeforeClass(): void
@@ -33,25 +33,19 @@ class V1WebhooksTestResultDataTest extends TestCase
     {
     }
 
-    public function testV1WebhooksTestResultData()
+    public function testV1SendMessageRef()
     {
         // TODO: implement
         self::markTestIncomplete('Not implemented');
     }
 
-    public function testPropertyHttpStatus()
+    public function testPropertyUid()
     {
         // TODO: implement
         self::markTestIncomplete('Not implemented');
     }
 
-    public function testPropertySuccess()
-    {
-        // TODO: implement
-        self::markTestIncomplete('Not implemented');
-    }
-
-    public function testPropertyError()
+    public function testPropertyFolder()
     {
         // TODO: implement
         self::markTestIncomplete('Not implemented');
