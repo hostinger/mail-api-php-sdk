@@ -274,7 +274,7 @@ getMessageSource($mailboxResourceId, $folder, $uid): \SplFileObject
 
 Get message source
 
-Retrieve raw RFC822 source of a message as `message/rfc822` attachment.
+Retrieve raw RFC822 source of a message as `message/rfc822` attachment. Does not change the message `\\Seen` flag.
 
 ### Example
 
@@ -324,7 +324,7 @@ getMessageText($mailboxResourceId, $folder, $uid): \Hostinger\Model\V1FolderMess
 
 Get message text content
 
-Retrieve rendered text (plain + HTML) of a message. Marks message as `\\Seen`.
+Retrieve rendered text (plain + HTML) of a message. Does not change the message `\\Seen` flag.
 
 ### Example
 
