@@ -1,6 +1,6 @@
 {
     "name": "hostinger/mail-api-php-sdk",
-    "version": "1.18.5",
+    "version": "1.18.6",
     "description": "Hostinger Mail API PHP SDK",
     "keywords": [
         "hostinger",
@@ -25,11 +25,11 @@
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "^7.4.5",
         "guzzlehttp/psr7": "^2.0",
-        "symfony/serializer": "^7.4",
+        "symfony/serializer": "^7.4 || ^8.1",
         "phpdocumentor/reflection-docblock": "*",
         "phpstan/phpdoc-parser": "*",
-        "symfony/property-access": "^7.4",
-        "symfony/property-info": "^7.4"
+        "symfony/property-access": "^7.4 || ^8.1",
+        "symfony/property-info": "^7.4 || ^8.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.5",
