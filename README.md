@@ -63,6 +63,18 @@ All URIs are relative to *https://api.mail.hostinger.com*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *AccountApi* | [**getCurrentAccount**](docs/Api/AccountApi.md#getcurrentaccount) | **GET** /api/v1/me | Get the authenticated account
+*CalendarEventsApi* | [**createCalendarEvent**](docs/Api/CalendarEventsApi.md#createcalendarevent) | **POST** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid}/events | Create calendar event
+*CalendarEventsApi* | [**deleteCalendarEvent**](docs/Api/CalendarEventsApi.md#deletecalendarevent) | **DELETE** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid}/events/{eventUuid} | Delete calendar event
+*CalendarEventsApi* | [**getCalendarEvent**](docs/Api/CalendarEventsApi.md#getcalendarevent) | **GET** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid}/events/{eventUuid} | Get calendar event
+*CalendarEventsApi* | [**listCalendarEvents**](docs/Api/CalendarEventsApi.md#listcalendarevents) | **GET** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid}/events | List calendar events
+*CalendarEventsApi* | [**replyToCalendarEvent**](docs/Api/CalendarEventsApi.md#replytocalendarevent) | **POST** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid}/events/{eventUuid}/reply | Reply to calendar event
+*CalendarEventsApi* | [**rescheduleCalendarEvent**](docs/Api/CalendarEventsApi.md#reschedulecalendarevent) | **PUT** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid}/events/{eventUuid}/reschedule | Reschedule calendar event
+*CalendarEventsApi* | [**updateCalendarEvent**](docs/Api/CalendarEventsApi.md#updatecalendarevent) | **PUT** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid}/events/{eventUuid} | Update calendar event
+*CalendarsApi* | [**createCalendar**](docs/Api/CalendarsApi.md#createcalendar) | **POST** /api/v1/mailboxes/{mailboxResourceId}/calendars | Create calendar
+*CalendarsApi* | [**deleteCalendar**](docs/Api/CalendarsApi.md#deletecalendar) | **DELETE** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid} | Delete calendar
+*CalendarsApi* | [**getCalendar**](docs/Api/CalendarsApi.md#getcalendar) | **GET** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid} | Get calendar
+*CalendarsApi* | [**listCalendars**](docs/Api/CalendarsApi.md#listcalendars) | **GET** /api/v1/mailboxes/{mailboxResourceId}/calendars | List calendars
+*CalendarsApi* | [**updateCalendar**](docs/Api/CalendarsApi.md#updatecalendar) | **PUT** /api/v1/mailboxes/{mailboxResourceId}/calendars/{calendarUuid} | Update calendar
 *FeedbackApi* | [**submitFeedback**](docs/Api/FeedbackApi.md#submitfeedback) | **POST** /api/v1/mailboxes/{mailboxResourceId}/feedback | Submit feedback
 *FoldersApi* | [**createFolder**](docs/Api/FoldersApi.md#createfolder) | **POST** /api/v1/mailboxes/{mailboxResourceId}/folders | Create folder
 *FoldersApi* | [**deleteFolder**](docs/Api/FoldersApi.md#deletefolder) | **DELETE** /api/v1/mailboxes/{mailboxResourceId}/folders/{folder} | Delete folder
@@ -95,6 +107,26 @@ Class | Method | HTTP request | Description
 
 - [Error](docs/Model/Error.md)
 - [Pagination](docs/Model/Pagination.md)
+- [V1CalendarEventsAttendee](docs/Model/V1CalendarEventsAttendee.md)
+- [V1CalendarEventsAttendeeInput](docs/Model/V1CalendarEventsAttendeeInput.md)
+- [V1CalendarEventsCollection](docs/Model/V1CalendarEventsCollection.md)
+- [V1CalendarEventsCollectionMeta](docs/Model/V1CalendarEventsCollectionMeta.md)
+- [V1CalendarEventsCreateRequest](docs/Model/V1CalendarEventsCreateRequest.md)
+- [V1CalendarEventsEvent](docs/Model/V1CalendarEventsEvent.md)
+- [V1CalendarEventsEventListItem](docs/Model/V1CalendarEventsEventListItem.md)
+- [V1CalendarEventsOrganizer](docs/Model/V1CalendarEventsOrganizer.md)
+- [V1CalendarEventsRecurrenceDay](docs/Model/V1CalendarEventsRecurrenceDay.md)
+- [V1CalendarEventsRecurrenceRule](docs/Model/V1CalendarEventsRecurrenceRule.md)
+- [V1CalendarEventsReminder](docs/Model/V1CalendarEventsReminder.md)
+- [V1CalendarEventsReplyRequest](docs/Model/V1CalendarEventsReplyRequest.md)
+- [V1CalendarEventsRescheduleRequest](docs/Model/V1CalendarEventsRescheduleRequest.md)
+- [V1CalendarEventsResource](docs/Model/V1CalendarEventsResource.md)
+- [V1CalendarEventsUpdateRequest](docs/Model/V1CalendarEventsUpdateRequest.md)
+- [V1CalendarsCalendar](docs/Model/V1CalendarsCalendar.md)
+- [V1CalendarsCollection](docs/Model/V1CalendarsCollection.md)
+- [V1CalendarsCreateRequest](docs/Model/V1CalendarsCreateRequest.md)
+- [V1CalendarsResource](docs/Model/V1CalendarsResource.md)
+- [V1CalendarsUpdateRequest](docs/Model/V1CalendarsUpdateRequest.md)
 - [V1FeedbackSubmitRequest](docs/Model/V1FeedbackSubmitRequest.md)
 - [V1FolderMessagesCollection](docs/Model/V1FolderMessagesCollection.md)
 - [V1FolderMessagesDeleteBulkRequest](docs/Model/V1FolderMessagesDeleteBulkRequest.md)
